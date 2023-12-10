@@ -37,9 +37,12 @@
 }
 
 .mouth {
-    width: 60%;
+    width: 45%;
     height: 15%;
     background: #00f4;
     border-radius: 100%;
     border-bottom: 1vmin solid black;
+    top: 70%;
+    left: 50%;
+    transform:translateX(-50%);
 }
