@@ -77,11 +77,14 @@
     top: 30%;
     left: 15%;
     border-radius: 100% / 100% 60% 15% 20%;
+    overflow: hidden;
 }
 
 .pupil {
-    width: 5vmin;
-    height: 5vmin;
+    width: 5.7vmin;
+    height: 5.7vmin;
     background: var(--iris);
     border-radius: 50%;
+    left: 69%;
+    transform:translateX(-40%) rotate(5deg);
 }
