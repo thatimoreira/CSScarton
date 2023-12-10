@@ -1,6 +1,7 @@
 #cartoon {
     --line: #222;
     --skin: #a88165;
+    --iris: #492816;
     width: 80vmin;
     height: 80vmin;
     background: #f007;
@@ -81,5 +82,5 @@
 .pupil {
     width: 5vmin;
     height: 5vmin;
-    background: black;
+    background: var(--iris);
 }
