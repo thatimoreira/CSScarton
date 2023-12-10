@@ -80,13 +80,18 @@
     overflow: hidden;
 }
 
+.eye + .eye {
+    left: auto;
+    right: 15%;
+}
+
 .pupil {
+    left: 65%;
     width: 5.7vmin;
     height: 5.7vmin;
     background: var(--iris);
     border-radius: 50%;
     border: 0.25vmin solid;
-    left: 69%;
     transform:translateX(-40%) rotate(5deg);
     background-image:
         radial-gradient(circle at 30% 30%, #fff, 7%, #0000 0),
