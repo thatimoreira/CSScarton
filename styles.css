@@ -33,3 +33,11 @@
 
     border-radius: 100% / 60% 60% 120% 120%;
 }
+
+.mouth {
+    width: 60%;
+    height: 15%;
+    background: #00f4;
+    border-radius: 100%;
+    border-bottom: 1vmin solid black;
+}
