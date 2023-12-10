@@ -77,3 +77,8 @@
     left: 15%;
     border-radius: 100% / 100% 60% 15% 20%;
 }
+
+.eye + .eye {
+    left: auto;
+    
+}
