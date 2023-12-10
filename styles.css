@@ -1,10 +1,11 @@
 #cartoon {
+    --skin: #a88165;
     width: 80vmin;
     height: 80vmin;
     background: #f007;
     background-image:
-        repeating-linear-gradient(#0000 0 9.5%, gray 10%),
-        repeating-linear-gradient(to left, #0000 0 9.5%, gray 10%)
+        repeating-linear-gradient(#0000 0 9.5%, #0002 10%),
+        repeating-linear-gradient(to left, #0000 0 9.5%, #0002 10%)
         ;
 
     /* centers the div horizontally */
@@ -12,4 +13,18 @@
     top: 50%;
     left: 50%;
     transform:translate(-50%, -50%);
+}
+
+#cartoon div,
+#cartoon div.ha,
+#cartoon div.hb {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.face {
+    width: 45%;
+    height: 60%;
+    background: var(--skin);
 }
