@@ -63,4 +63,6 @@
 
 .ear + .ear {
     left: auto;
+    right: 20%;
+    transform: scaleX(-1);
 }
