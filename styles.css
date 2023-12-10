@@ -66,3 +66,9 @@
     right: 20%;
     transform: scaleX(-1) rotate(-13deg);
 }
+
+.eye {
+    width: 20%;
+    height: 20%;
+    background: #fff;
+}
