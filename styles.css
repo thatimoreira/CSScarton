@@ -56,7 +56,7 @@
     border: 0.5vmin solid;
     border-radius: 100% / 50% 50% 20% 120%; 
     box-shadow: -0.25vmin --0.25vmin;
-    top: 40%;
+    top: 42%;
     left: 20%;
-    transform: rotate(-15deg);
+    transform: rotate(-10deg);
 }
