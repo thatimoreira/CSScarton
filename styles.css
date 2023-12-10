@@ -85,6 +85,7 @@
     height: 5.7vmin;
     background: var(--iris);
     border-radius: 50%;
+    border: 0.25vmin solid;
     left: 69%;
     transform:translateX(-40%) rotate(5deg);
     background-image:
