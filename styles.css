@@ -58,4 +58,5 @@
     box-shadow: -0.25vmin --0.25vmin;
     top: 40%;
     left: 20%;
+    transform: rotate(-15deg);
 }
