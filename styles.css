@@ -64,5 +64,5 @@
 .ear + .ear {
     left: auto;
     right: 20%;
-    transform: scaleX(-1);
+    transform: scaleX(-1) rotate(-13deg);
 }
