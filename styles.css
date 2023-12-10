@@ -1,9 +1,13 @@
-# cartoon {
+#cartoon {
     width: 80vmin;
     height: 80vmin;
     background: #f007;
+    background-image:
+        repeating-linear-gradient(#0000 0 9.5%, gray 10%),
+        repeating-linear-gradient(to left, #0000 0 9.5%, gray 10%)
+        ;
 
-    /* centralizes div horizontally */
+    /* centers the div horizontally */
     position: absolute;
     top: 50%;
     left: 50%;
