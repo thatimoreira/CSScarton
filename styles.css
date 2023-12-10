@@ -83,4 +83,5 @@
     width: 5vmin;
     height: 5vmin;
     background: var(--iris);
+    border-radius: 50%;
 }
