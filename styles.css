@@ -78,7 +78,8 @@
     border-radius: 100% / 100% 60% 15% 20%;
 }
 
-.eye + .eye {
-    left: auto;
-    
+.pupil {
+    width: 5vmin;
+    height: 5vmin;
+    background: black;
 }
