@@ -87,5 +87,7 @@
     border-radius: 50%;
     left: 69%;
     transform:translateX(-40%) rotate(5deg);
-    background-image: radial-gradient(var(--line) 35%, #0000 0);
+    background-image:
+        radial-gradient(circle at 30% 30%, #fff, 7%, #0000 0);
+        radial-gradient(var(--line) 35%, #0000 0);
 }
