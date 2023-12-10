@@ -48,3 +48,11 @@
     left: 50%;
     transform:translateX(-50%) rotate(5deg);
 }
+
+.ear {
+    width: 15%;
+    height: 25%;
+    background: var(--skin);
+    border: 0.5vmin solid;
+    border-radius: 100% / 50% 50% 20% 120%; 
+}
