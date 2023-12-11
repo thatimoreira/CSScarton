@@ -27,19 +27,6 @@
     box-sizing: border-box;
 }
 
-.face {
-    width: 45%;
-    height: 60%;
-    background: var(--skin);
-    top: 20%;
-    left: 50%;
-    transform:translate(-50%, 0%);
-    border-radius: 100% / 60% 60% 120% 120%;
-    border: 0.5vmin solid;
-    border-bottom-width: 0.75vmin;
-    border-top-width: 0.33vmin;
-}
-
 .ear {
     width: 15%;
     height: 25%;
@@ -56,6 +43,25 @@
     left: auto;
     right: 20%;
     transform: scaleX(-1) rotate(-13deg);
+}
+
+.neck {
+    width: 20%;
+    height: 25%;
+    background: var(--skin);
+}
+
+.face {
+    width: 45%;
+    height: 60%;
+    background: var(--skin);
+    top: 20%;
+    left: 50%;
+    transform:translate(-50%, 0%);
+    border-radius: 100% / 60% 60% 120% 120%;
+    border: 0.5vmin solid;
+    border-bottom-width: 0.75vmin;
+    border-top-width: 0.33vmin;
 }
 
 .eye {
