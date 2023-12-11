@@ -1,3 +1,7 @@
+html, body {
+    overflow: hidden;
+}
+
 #cartoon {
     --line: #222;
     --skin: #a88165;
@@ -13,9 +17,9 @@
 
     /* centers the div horizontally */
     position: absolute;
-    top: 50%;
+    bottom: 0%;
     left: 50%;
-    transform:translate(-50%, -50%);
+    transform:translate(-50%, 0%);
     color: var(--line);
 }
 
@@ -171,5 +175,9 @@
     background: var(--skin);
     width: 80%;
     height: 40%;
-    
+    border-radius: 97% / 70% 70%;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    box-shadow: 0 -0.75vmin 0 0.125vmin;
 }
