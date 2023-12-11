@@ -145,8 +145,8 @@
 
 .hair-back {
     filter:
-        drop-shadow(-10.65vmin 0 var(--line)),
-        drop-shadow(0.5vmin 0 var(--line)),
+        drop-shadow(-0.5vmin 0 var(--line))
+        drop-shadow(0.5vmin 0 var(--line))
         drop-shadow(0 -0.5vmin var(--line));
     box-shadow:
         -19vmin 4vmin,
@@ -165,4 +165,11 @@
         17vmin 11vmin 0 -2vmin,
         15vmin 15vmin 0 -2vmin,
         14vmin 19vmin 0 -2vmin;
+}
+
+.body {
+    background: var(--skin);
+    width: 80%;
+    height: 40%;
+    
 }
