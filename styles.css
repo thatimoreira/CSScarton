@@ -1,6 +1,7 @@
 #cartoon {
     --line: #222;
     --skin: #a88165;
+    --hair: #321b0f;
     --iris: #492816;
     width: 80vmin;
     height: 80vmin;
@@ -41,7 +42,7 @@
 
 .ear + .ear {
     left: auto;
-    right: 20%;
+    right: 21%;
     transform: scaleX(-1) rotate(-13deg);
 }
 
@@ -122,4 +123,10 @@
     top: 68%;
     left: 50%;
     transform:translateX(-50%) rotate(5deg);
+}
+
+.hair-top {
+    width: 15%;
+    height: 15%;
+    background: var(--hair);
 }
