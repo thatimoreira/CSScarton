@@ -7,7 +7,7 @@ html, body {
     --skin: #a88165;
     --hair: #321b0f;
     --iris: #492816;
-    --cropped: #ff00a9;
+    --shirt: #fff;
     width: 80vmin;
     height: 80vmin;
     background: #f007;
@@ -173,7 +173,7 @@ html, body {
 }
 
 .body {
-    background: var(--skin);
+    background: var(--shirt);
     width: 80%;
     height: 40%;
     border-radius: 97% / 70% 70%;
@@ -181,19 +181,7 @@ html, body {
     left: 50%;
     transform: translate(-50%, 0);
     box-shadow: 0 -0.75vmin 0 0.125vmin;
+    background-image: 
+        radial-gradient(circle at 50% -30%, var(--skin) 40%, var(--line) 0 33%, transparent 0);
 }
 
-.strap {
-    background: var(--cropped);
-    width: 12%;
-    height: 47%;
-    left: 17%;
-    border-radius: 47% / 80% 70%;
-    box-shadow: 0 -0.25vmin 0 0.125vmin;
-    transform: rotate(-7deg);
-}
-
-.strap + .strap {
-    left: auto;
-    right: 19%;
-    transform: scaleX(-1) rotate(-7deg);
