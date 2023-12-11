@@ -126,7 +126,18 @@
 }
 
 .hair-top {
-    width: 15%;
-    height: 15%;
+    width: 17%;
+    height: 17%;
     background: var(--hair);
+    border-radius: 47%;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, 0);
+    filter: drop-shadow(0 0.85vmin var(--line));
+    color: var(--hair);
+    box-shadow:
+        -6vmin 1vmin 0 -2vmin,
+        -14vmin 2vmin 0 -1vmin,
+        9vmin 0.85vmin 0 -1vmin,
+        15vmin 2.25vmin 0 1.25vmin;
 }
