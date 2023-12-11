@@ -49,6 +49,9 @@
     width: 20%;
     height: 25%;
     background: var(--skin);
+    top: 70%;
+    left: 50%;
+    transform:translate(-50%);
 }
 
 .face {
