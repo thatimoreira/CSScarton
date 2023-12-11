@@ -59,8 +59,8 @@
 }
 
 .eye {
-    width: 25%;
-    height: 25%;
+    width: 29%;
+    height: 30%;
     background: #fff;
     border: 0.5vmin solid;
     border-right-width: 0.33vmin;
@@ -77,8 +77,8 @@
 
 .pupil {
     left: 65%;
-    width: 5.7vmin;
-    height: 5.7vmin;
+    width: 5.9vmin;
+    height: 5.9vmin;
     background: var(--iris);
     border-radius: 50%;
     border: 0.25vmin solid;
@@ -90,13 +90,13 @@
 }
 
 .nose {
-    background-color: #00f4;
     width: 20%;
     height: 12%;
     border-radius: 50%;
     top: 60%;
     left: 50%;
     transform: translate(-50%, 0);
+    box-shadow: 0.5vmin -0.5vmin;
 }
 
 .mouth {
