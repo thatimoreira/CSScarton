@@ -125,7 +125,8 @@
     transform:translateX(-50%) rotate(5deg);
 }
 
-.hair-top {
+.hair-top,
+.hair-back {
     width: 17%;
     height: 17%;
     background: var(--hair);
@@ -137,7 +138,15 @@
     color: var(--hair);
     box-shadow:
         -6vmin 1vmin 0 -2vmin,
-        -14vmin 2vmin 0 -1vmin,
+        -14vmin 2vmin 0 -1.3vmin,
         9vmin 0.85vmin 0 -1vmin,
         15vmin 2.25vmin 0 1.25vmin;
+}
+
+.hair-back {
+    filter:
+        drop-shadow(-0.75vmin -2vmin var(--line));
+        drop-shadow(0.75vmin 0 var(--line));
+        drop-shadow(0 -0.75vmin var(--line));
+    box-shadow: -20vmin 10.65vmin;
 }
