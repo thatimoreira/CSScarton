@@ -52,6 +52,8 @@
     top: 70%;
     left: 50%;
     transform:translate(-50%);
+    border: 0.5vmin solid;
+    border-bottom: 0;
 }
 
 .face {
